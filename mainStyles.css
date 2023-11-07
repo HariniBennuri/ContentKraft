@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/harinibennuri/Desktop/CMS Improve10X/CMSbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    background-color: #7f5ce1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#addArticle {
+    background-color: #7f5ce1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+#addArticle:hover {
+    background-color: #553a91;
+}
+
+.article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    color: #7f5ce1;
+    font-size: 24px;
+    margin: 0;
+}
+
+.article p {
+    color: #555;
+    font-size: 16px;
+}
+
+.article button {
+    background-color: #7f5ce1;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.article button:hover {
+    background-color: #553a91;
+}
+footer {
+    text-align: center;
+    background-color: #7f5ce1;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 23px;
+}
+
